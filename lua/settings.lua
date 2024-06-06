@@ -16,3 +16,7 @@ vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 vim.opt.scrolloff = 10
 
 vim.opt.signcolumn = 'yes'
+
+vim.opt.completeopt = 'menuone'
+vim.cmd('filetype plugin indent on')
+vim.cmd('set omnifunc=syntaxcomplete#Complete')
