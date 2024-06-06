@@ -1,3 +1,5 @@
+vim.g.mapleader = ' '
+
 vim.opt.number = true
 vim.opt.relativenumber = false
 
@@ -13,4 +15,4 @@ vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
 vim.opt.scrolloff = 10
 
-vim.g.mapleader = ' '
+vim.opt.signcolumn = 'yes'
