@@ -1,7 +1,7 @@
 return {
 	'neovim/nvim-lspconfig',
 	config = function()
-		-- require('lspconfig').pylint.setup{}
+		-- require('lspconfig').lua-language-server.setup{}
 	end
 }
 
