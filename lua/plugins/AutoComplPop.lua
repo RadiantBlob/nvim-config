@@ -1,3 +1,3 @@
 return {
-	'vim-scripts/AutoComplPop'
+	-- 'vim-scripts/AutoComplPop'
 }
