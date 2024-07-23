@@ -16,3 +16,5 @@ map("v", "J", ":m '>+1<CR>gv=gv")
 map("v", "K", ":m '<-2<CR>gv=gv")
 
 map('n', '<Leader>cf', 'gg=G<C-o>', {desc = '[c]hange [f]ormat'})
+
+map('n', '<Leader>t', '<C-w>s<C-w>j:term<CR>i', {desc = '[t]erminal'})
