@@ -24,3 +24,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 require('settings')
 require('remap')
 require('lazy').setup('plugins')
+
+vim.lsp.enable('lua_ls')
+vim.lsp.enable('pyright')
