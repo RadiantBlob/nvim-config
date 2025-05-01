@@ -43,3 +43,6 @@ require('mini.comment').setup()
 require('mini.surround').setup()
 require('mini.align').setup()
 require('mini.ai').setup()
+
+vim.lsp.enable('lua_ls')
+vim.lsp.enable('pyright')
